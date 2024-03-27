@@ -18,5 +18,12 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    overflow-x: auto;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 60px;
+}
+
+.progress-bar {
+    font-size: 1.00rem; /* Adjust the font size to make the percentage bars larger */
+    transition: width 0.5s; /* Add a transition for smoother animation */
 }
